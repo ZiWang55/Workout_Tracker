@@ -1,57 +1,62 @@
-# Unit 17 Nosql Homework: Workout Tracker
+<h1 align="center"> Workout Tracker </h1>
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+<p align="center">
+   <img src="https://img.shields.io/github/repo-size/ZiWang55/workout_tracker" />
+    <img src="https://img.shields.io/github/languages/top/ZiWang55/workout_tracker"  />
+    <img src="https://img.shields.io/github/issues/ZiWang55/workout_tracker" />
+    <img src="https://img.shields.io/github/last-commit/ZiWang55/workout_tracker" >
+    <a href="https://github.com/ZiWang55"><img src="https://img.shields.io/github/followers/ZiWang55?style=social" target="_blank" /></a>
+    </p>
+      
 
-## User Story
+<p align="center">
+    <img src="https://img.shields.io/badge/javascript-yellow" />
+    <img src="https://img.shields.io/badge/express-orange" />
+    <img src="https://img.shields.io/badge/MongoDB-blue"  />
+    <img src="https://img.shields.io/badge/mongoose-red"  />
+    <img src="https://img.shields.io/badge/IndexedDB-blue"  />
+    <img src="https://img.shields.io/badge/nodemon-green" />
+</p>
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+## Description
 
-## Business Context
+Web Application workout tracker that allows user to track work out and exercies.
 
-A consumer will reach their fitness goals more quickly when they track their workout progress.
+**[Deployed Application](https://agile-escarpment-60478.herokuapp.com/)**
 
-## Acceptance Criteria
+Below is screenshot of application:
+![workout_tracker](workoutTrackerScreenshot)
 
-When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+## Table of Contents
+- [Description](#description)
+- [Table of Contents](#table-of-contents)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [Questions](#questions)
 
-The user should be able to:
+## Installation
+💾   
 
-  * Add exercises to a previous workout plan.
+`npm install`
+  
+## Usage
+💻   
+  
+`npm start`
 
-  * Add new exercises to a new workout plan.
+With Nodemon:
 
-  * View the combined weight of multiple exercises on the `stats` page.
+`npm run watch`
 
-To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application. Be sure to use the following guides for support:
+## Testing
+✏️
 
-  * [Set Up MongoDB Atlas](../04-Important/MongoAtlas-Setup.md)
+No current testing
 
-  * [Deploy with Heroku and MongoDB Atlas](../04-Important/MongoAtlas-Deploy.md)
+## Contributing
+:octocat: [Zi Wang](https://github.com/ZiWang55)
 
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for the following two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-2. Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We want you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL to the deployed application
-
-* The URL to the GitHub repository
+## Questions
+✉️ Contact me with any questions: [email](mailto:ziwang55@gmail.com) , [GitHub](https://github.com/ZiWang55)<br />
