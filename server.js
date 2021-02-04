@@ -23,7 +23,7 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/workout',
 }
 );
 
-require('./routes/api-routes.js')(app)
+require('./routes/apiRoutes.js')(app)
 
 // Routes
 app.get('/', (req, res) => {

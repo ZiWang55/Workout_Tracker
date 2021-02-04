@@ -42,6 +42,12 @@ module.exports = function (app) {
 
     //Get workouts
     app.get('/api/workouts/range', (req, res) => {
-        db.Workout.find({}).then(dbWorkout => )
+        db.Workout.find({}).then(dbWorkout => {
+            console.log('Here are all the workouts!')
+            console.log(dbWorkout)
+            res.json(dbWorkout)
+        }).catch(err => {
+            res.json(err)
+        })
     })
 }
