@@ -25,7 +25,7 @@ Web Application workout tracker that allows user to track work out and exercies.
 **[Deployed Application](https://track-your-fitness.herokuapp.com/?id=60206b057abbf10017bb414c)**
 
 Below is screenshot of application:
-![workout_tracker](workoutTrackerScreenshot)
+![workout_tracker](workoutTrackerScreenshot.png)
 
 ## Table of Contents
 - [Description](#description)
