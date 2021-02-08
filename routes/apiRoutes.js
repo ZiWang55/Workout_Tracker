@@ -6,7 +6,7 @@ module.exports = function (app) {
         db.Workout.find({}).then(dbWorkout => {
             dbWorkout.forEach(workout => {
                 var total = 0
-                workout.exercise.forEach(e => {
+                workout.exercises.forEach(e => {
                     total += e.duration
                 })
                 workout.totalDuration = total
